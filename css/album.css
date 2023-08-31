@@ -51,12 +51,13 @@ body{
 #songsList{
     width: 100%;
 }
-
 #songsList th,td{
     color: rgb(179,179,179);
     font-weight: normal;
 }
-
+#songsList tbody tr:hover{
+    background-color: rgb(75, 94, 90);
+}
 .leftText{
     text-align: left;
 }
