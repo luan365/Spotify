@@ -6,7 +6,7 @@ body{
 
 #main{
     height: 2000px;
-    width: 70%;
+    width: 900px;
     background-color: rgb(35, 54, 50);
     border-left: 5px solid  rgb(40, 61, 57);
     border-right: 5px solid  rgb(40, 61, 57);
@@ -19,7 +19,7 @@ body{
 
 #cover{
     /*border: 5px solid white;*/
-    width: 25%;
+    width: 30%;
     float: left;
 }
 
@@ -29,8 +29,7 @@ body{
 }
 
 #albumInfo{
-    /* border: 5px solid rgb(0, 255, 0);*/
-    width: 70%;
+    width: 65%;
     float: right;
 }
 
@@ -41,10 +40,41 @@ body{
 
 #content{
     height: 500px;
-    border: 5px solid rgb(0, 130, 11);
 }
 
 #footer{
     height: 200px;
     border: 5px solid rgb(0, 255, 21);
+}
+
+/*Estilos da lista de música*/
+#songsList{
+    width: 100%;
+}
+
+#songsList th,td{
+    color: rgb(179,179,179);
+    font-weight: normal;
+}
+
+.leftText{
+    text-align: left;
+}
+.centerText{
+    text-align: center;
+}
+.rightText{
+    text-align: right;
+}
+.songTittle{
+    color:rgb(249, 249, 249)
+}
+.songMembers a{
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+.songMembers a:hover{
+    color: rgb(249, 249, 249);
+    text-decoration: underline;
 }
